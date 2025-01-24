@@ -1,11 +1,11 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import Product from "./pages/Product";
-import Pricing from "./pages/Pricing";
-import HomePage from "./pages/Homepage";
-import PageNotFound from "./pages/PageNotFound";
-import AppLayout from "./pages/AppLayout";
+import Product from "./pages/Product.jsx";
+import Pricing from "./pages/Pricing.jsx";
+import HomePage from "./pages/Homepage.jsx";
+import PageNotFound from "./pages/PageNotFound.jsx";
+import AppLayout from "./pages/AppLayout.jsx";
 import Login from "./pages/Login";
-import Citylist from "./components/Citylist";
+import Citylist from "./components/Citylist.jsx";
 import Form from "./components/Form";
 import CountryList from "./components/CountryList";
 import City from "./components/City";
