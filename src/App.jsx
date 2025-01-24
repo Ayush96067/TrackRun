@@ -6,9 +6,9 @@ import PageNotFound from "./pages/PageNotFound.jsx";
 import AppLayout from "./pages/AppLayout.jsx";
 import Login from "./pages/Login";
 import Citylist from "./components/Citylist.jsx";
-import Form from "./components/Form";
-import CountryList from "./components/CountryList";
-import City from "./components/City";
+import Form from "./components/Form.jsx";
+import CountryList from "./components/CountryList.jsx";
+import City from "./components/City.jsx";
 import { CitiesProvider } from "./context/CityContext";
 
 function App() {
