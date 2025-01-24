@@ -1,5 +1,5 @@
 import CityItem from "./CityItem.jsx";
-import styles from "./Citylist.module.css";
+import styles from "./CityList.module.css";
 import Spinner from "./Spinner.jsx";
 import Message from "./Message.jsx";
 import { useCities } from "../context/CityContext.jsx";
