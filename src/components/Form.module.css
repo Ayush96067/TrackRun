@@ -25,6 +25,7 @@
   right: 1rem;
   top: 2.7rem;
   font-size: 2.8rem;
+  color: black;
 }
 
 .form.loading {
@@ -41,4 +42,8 @@
 :global(.react-datepicker) {
   font-family: inherit;
   font-size: 1.2rem;
+}
+
+.react-datepicker_1 {
+  width: 20px;
 }
