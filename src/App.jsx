@@ -5,7 +5,7 @@ import HomePage from "./pages/Homepage.jsx";
 import PageNotFound from "./pages/PageNotFound.jsx";
 import AppLayout from "./pages/AppLayout.jsx";
 import Login from "./pages/Login";
-import Citylist from "./components/Citylist.jsx";
+import Citylist from "./components/Citylist";
 import Form from "./components/Form.jsx";
 import CountryList from "./components/CountryList.jsx";
 import City from "./components/City.jsx";
