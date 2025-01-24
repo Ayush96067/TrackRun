@@ -1,9 +1,10 @@
-import { Outlet, useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./Map.module.css";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { useState } from "react";
+
 function Map() {
-  const navigate = useNavigate();
+  const { navigate } = useNavigate();
   const [mapPosition, setMapPosition] = useState([40, 0]);
 
   return (
